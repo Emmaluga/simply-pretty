@@ -1,0 +1,515 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;;
+  }
+  /* navbar styling */
+ #navbar{
+    
+   
+}
+#brand{
+    font-family: 'Audiowide', cursive;
+ font-family: 'Oswald', sans-serif;
+ font-family: 'Quintessential', cursive;
+ font-size: 1.8em;
+ color: black;
+ 
+}
+#navlink , #navlink1, #navlink2, #navlink3, #navlink4 , #navlink5 {
+    text-transform: uppercase;
+    margin: 0px 2px; 
+    
+    color: black;  
+       
+   }
+   /* landing styling */
+
+    .landing-wrapper{
+  
+  
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+      
+        width: 100%;
+        height: 100vh;
+     
+       margin-bottom: 50px;  
+       background-image: url(image/cosmetic\ 40.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       
+       
+
+   } 
+   
+.landing-text{
+     font-family:Alliance No.1",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol ;   
+     /* font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;;  */
+     font-size: 2em;    
+     height: 100%; 
+     width: 100%; 
+    text-align: end;
+   margin-top: 400px; 
+   
+ 
+     
+  }
+
+  h6{
+    font-size: 2em;
+    margin-bottom: 20px;   
+   } 
+   
+    #buttonapex{
+       
+       padding: 10px 40px;
+       border: 2px solid black;
+       background-color: black;
+       color: white;
+       font-size: 1.2em;
+       display: inline-block;
+       opacity: 0;
+       animation: buttonapex;
+       animation-duration: 3s;
+       animation-delay: 3s;
+       animation-fill-mode: forwards;
+    } 
+    /* button:hover{    
+       border-radius: 15px;
+   } */
+   
+   @keyframes buttonapex {
+       0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+   }
+   } 
+   /* landing style ends */
+
+   /* media query starts */
+
+
+ @media (max-width: 320px){
+    .landing-wrapper{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+
+    }
+
+  
+    .landing-text{
+         
+         font-size: 0.8em;
+         font-weight: bold;
+        text-align: end;
+        margin-top: 200px;
+        
+     }
+    #buttonapex{
+        
+       border: 1px solid black;
+       padding: 5px 5px;
+    }
+
+    h6{
+        margin-bottom: 5px;
+    }
+    .disc-text{
+        padding: 40px 0px; 
+        /* width: 100%; */
+        /* font-size: 0.7em  */
+     }
+     /* #disc{
+        border: 2px solid black;
+        padding: 10px 10px;
+        color: white;
+        background-color: black;
+       
+        
+    
+    }  */
+  
+  
+}   
+
+  @media (min-width: 321px) and (max-width: 576px){
+    .landing-wrapper{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+
+    }
+
+  
+    .landing-text{
+         
+         font-size: 0.8em;
+         font-weight: bold;
+        text-align: end;
+        margin-top: 200px; 
+    
+        /* margin-left: 100px; */
+        /* height: 100%; 
+       / width: 100%;   */
+      }
+    #buttonapex{
+        
+       border: 1px solid black;
+       padding: 5px 5px;
+    }
+
+    h6{
+        margin-bottom: 5px;
+    }
+    .disc-text{
+        padding: 60px 0px; 
+         width: 100%; 
+         font-size: 0.7em 
+    }
+    /* #disc{
+        border: 2px solid black;
+        padding: 10px 10px;
+        color: white;
+        background-color: black;
+       
+    
+    
+    } */
+    
+  
+ } 
+ @media (min-width: 576px)and (max-width:768px){
+    .landing-wrapper{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+
+    }
+  
+    .landing-text{
+         
+         font-size: 0.9em;
+         font-weight: bold;
+        text-align: end;
+        margin-top: 250px;
+    }
+
+    #buttonapex{
+        
+       border: 1px solid black;
+       padding: 5px 5px;
+    }
+
+    h6{
+        margin-bottom: 5px;
+    }
+
+    .disc-text{
+        padding: 60px 0px;
+         width: 100%; 
+     }
+    #disc{
+        border: 2px solid black;
+        padding: 10px 10px;
+        color: white;
+        background-color: black;
+       
+        cursor: pointer;
+    
+    }
+    h3{
+        font-size: 1em       
+    }
+  
+}    
+
+ @media (min-width: 768px) and (max-width:991px){
+    .landing-wrapper{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+
+    } 
+  
+     .landing-text{ 
+         
+         font-size: 1em;
+         font-weight: bold;
+        text-align: end;
+        margin-top: 230px;
+        
+         
+       }  
+      #buttonapex{
+        
+       border: 1px solid black;
+       padding: 5px 5px;
+    }
+
+    h6{
+        margin-bottom: 5px;
+    }
+    h3{
+        font-size: 1.5em       
+    }
+    .disc-text{
+        padding: 60px 0px;
+        width: 100%;
+    }
+    #disc{
+        border: 2px solid black;
+        padding: 10px 10px;
+        color: white;
+        background-color: black;
+       
+        cursor: pointer;
+    
+    }
+  
+}    
+
+ /* media query end */
+
+
+ /* section about us start */
+
+     .image-about-us{
+          height: 100%;
+          width: 100%;
+         
+     }
+      
+
+.abt-text{
+    padding: 10px 30px;
+    font-size: 1.4em;  
+} 
+
+.about-button{
+
+    background-color: purple;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid purple;  
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+ /* section about us end */
+
+
+
+
+
+ /* discount styling start */
+.discount{
+    background-color: #af8169 ;
+    display: flex;
+    justify-content: center;
+     max-height: 100%; 
+     width: 100%; 
+    align-items: center;
+}
+
+h3{
+    font-size: 3em;
+} 
+ span{
+    font-family: 'Audiowide', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quintessential', cursive;
+    color: purple;  
+    
+} 
+.span1{
+    color: purple;
+}
+ #disc{
+    border: 2px solid black;
+    padding: 20px 20px;
+    color: white;
+    background-color: black;
+    font-size: 1.2em;
+
+    cursor: pointer;
+
+}  
+
+
+
+/* disc styling end */
+
+
+
+
+
+ 
+/* styling for all form pages */
+.form{
+    padding: 100px 0;
+ } 
+  .or{
+    font-size: 20px ;
+    font-weight: bold;
+    margin-bottom: 30px; 
+      
+      }
+
+      .pass{
+        font-size: 20px ;
+        /* font-weight: bold; */
+        color: purple;
+        
+      }
+      .pass1{
+        font-size: 20px ;
+        /* font-weight: bold; */
+          
+      }
+      a{
+          text-decoration: none;
+          color: black;
+      }
+      .error{
+        font-size: 14.5px;
+        /* margin-top: 5px; */
+        margin-bottom: 8px;
+       
+    }
+    .success-icon{
+        color: green;
+    }
+    .failure-icon,.error{
+        color: red;
+    }
+    /* .success-icon,.failure-icon{
+        opacity: 0;
+        right: 0;
+    }  */
+    .box{
+        height: 500px;
+     background-color: black;
+     margin-top: 60px;
+    }
+ 
+ .sign{
+    
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        gap: 15px;
+    
+ }
+ .sign1,.sign2{
+    padding: 10px 5px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #c4c4c4;
+    border-radius: 8px;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); */
+    font-size: 1.2em;
+    color: black;
+  
+}
+label{
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;  
+}
+ .sign2{
+    background-color: #4f70b5;
+    text-align: center;     
+ }            
+.sign1{
+    
+ text-align: center;
+ 
+}
+.btn1{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #c4c4c4;
+  }
+
+  /* all form styling end */
+
+
+
+.button{
+ 
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid black;  
+    text-transform: uppercase;
+    padding: 10px 10px;
+    
+}
+.button:hover{
+    border-radius: 15px;
+}
+
+.btn{
+
+    background-color: black;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 10px; 
+    color: white;    
+}
+.text{
+    font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;;
+    color: purple;
+    margin-bottom: 20px;   
+}
+
+
+
+first-letter{
+    color: purple;
+    font-size: 1.5em;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ 
